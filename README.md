@@ -2,7 +2,7 @@
 
 ***Sed editor***  
 
-***Just append text to file*  
+\*\*\* *Just append text to file*  
 
 sed -i '$a append_text' filename.txt  
 _$ and a - must have options!!!_  

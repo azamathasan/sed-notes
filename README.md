@@ -15,8 +15,8 @@ $ sed -i '/search_text/a \\' filename.txt
  
 - _string - string to be found
 - _-i - edit file in place
-..*_a - insert the text after matched pattern_ 
-..*_\\ or \n - newline _ 
+- _a - insert the text after matched pattern
+- _\\ or \n - newline
  
  
 ***Find and replace text* 

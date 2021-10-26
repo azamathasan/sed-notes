@@ -8,7 +8,11 @@
 - *$ and a - must have options!!!*
 - *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified.*
 - *a - insert the text after matched pattern*
- 
+
+\*\*\* **Delete line**  
+
+`sed -i '/search_text/c\' filename.txt  `
+- *c - delete line*
  
  
 *** **Find template and add new line after line with template**  

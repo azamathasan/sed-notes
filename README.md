@@ -27,4 +27,4 @@
 
 
 *** **Some more options** 
-- _/t - tab character
+- _\t - tab character

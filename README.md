@@ -13,10 +13,10 @@ _$ and a - must have options!!!_
 
 $ sed -i '/search_text/a \\' filename.txt 
  
-_string - string to be found_
-_-i - edit file in place_ 
-_a - insert the text after matched pattern_ 
-_\\ or \n - newline _ 
+ _string - string to be found_
+ _-i - edit file in place_ 
+ _a - insert the text after matched pattern_ 
+ _\\ or \n - newline _ 
  
  
 ***Find and replace text* 

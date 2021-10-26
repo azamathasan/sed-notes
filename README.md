@@ -6,8 +6,8 @@
 
 `sed -i '$a append_text' filename.txt  `
 - *$ and a - must have options!!!*
-- _$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified.
-- _a - insert the text after matched pattern
+- *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified.*
+- *a - insert the text after matched pattern*
  
  
  
@@ -15,10 +15,10 @@
 
 `sed -i '/search_text/a \\' filename.txt `
  
-- _string - string to be found
-- _-i - edit file in place
-- _a - insert the text after matched pattern
-- _\\ or \n - newline
+- *string - string to be found*
+- *-i - edit file in place*
+- *a - insert the text after matched pattern*
+- *\\ or \n - newline*
  
  
 *** **Find and replace text** 
@@ -27,4 +27,4 @@
 
 
 *** **Some more options** 
-- _\t - tab character
+- *\t - tab character*

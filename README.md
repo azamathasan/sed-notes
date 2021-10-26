@@ -2,7 +2,7 @@
 
 ***Sed editor***  
 
-\*\*\* *Just append text to file*  
+\*\*\* **Just append text to file**  
 
 `sed -i '$a append_text' filename.txt  `
 - _$ and a - must have options!!!_
@@ -11,7 +11,7 @@
  
  
  
-***Find template and add new line after line with template*  
+*** **Find template and add new line after line with template**  
 
 `sed -i '/search_text/a \\' filename.txt `
  
@@ -21,6 +21,6 @@
 - _\\ or \n - newline
  
  
-***Find and replace text* 
+*** **Find and replace text** 
  
 `sed -i 's/found_text/replace_text/' filename.txt `

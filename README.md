@@ -1,4 +1,4 @@
-# webpack-for-scss  
+# sed (Stream EDitor, a Unix utility) notes and recipes
 
 ***Sed editor***  
 

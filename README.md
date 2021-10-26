@@ -5,7 +5,7 @@
 \*\*\* **Just append text to file**  
 
 `sed -i '$a append_text' filename.txt  `
-- _$ and a - must have options!!!_
+- *$ and a - must have options!!!*
 - _$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified.
 - _a - insert the text after matched pattern
  

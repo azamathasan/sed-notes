@@ -24,3 +24,7 @@
 *** **Find and replace text** 
  
 `sed -i 's/found_text/replace_text/' filename.txt `
+
+
+*** **Some more options** 
+- _/t - tab character

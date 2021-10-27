@@ -32,6 +32,7 @@
 *** **Add ',' symbol to the end of line** 
  
 `sed -i '/found_text/ s/$ , /' filename.txt `
+- */ symbol is must have in the end of pattern (inside the '')!!!*
 
 
 *** **Some more options** 

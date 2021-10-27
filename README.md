@@ -6,7 +6,7 @@
 
 `sed -i '$a append_text' filename.txt  `
 - *$ and a - must have options!!!*
-- *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified.*
+- *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified. (end of line)*
 - *a - insert the text after matched pattern*
 
 \*\*\* **Delete line**  
@@ -33,3 +33,4 @@
 *** **Some more options** 
 - *\t - tab character*
 - *^ - Matches the null string at beginning of the pattern space, i.e., what appears after the ^ must appear at the beginning of the pattern space*
+- - *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified. (end of line)*

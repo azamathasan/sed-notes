@@ -29,8 +29,13 @@
  
 `sed -i 's/found_text/replace_text/' filename.txt `
 
+*** **Add ',' symbol to the end of line** 
+ 
+`sed -i '/found_text/ s/$ , /' filename.txt `
+
 
 *** **Some more options** 
 - *\t - tab character*
 - *^ - Matches the null string at beginning of the pattern space, i.e., what appears after the ^ must appear at the beginning of the pattern space*
-- - *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified. (end of line)*
+- *$ - This address matches the last line of the last file of input, or the last line of each file when the -i or -s options are specified. (end of line)*
+- *\n - new line*

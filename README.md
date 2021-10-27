@@ -32,3 +32,4 @@
 
 *** **Some more options** 
 - *\t - tab character*
+- *^ - Matches the null string at beginning of the pattern space, i.e., what appears after the ^ must appear at the beginning of the pattern space*
